@@ -1,0 +1,45 @@
+nav {
+    position: absolute;
+    width: 156px;
+    height: 40px;
+    left: 133px;
+    top: 38px;
+
+    background: url(/assets/images/logo.png);
+}
+
+.mainDiv{
+    margin-top: 100px;
+}
+
+#business{
+    color: rgba(197, 63, 0, 1);
+}
+
+#tech{
+   color : rgba(0, 136, 123, 1);
+}
+.heading,
+#banner-text 
+{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#banner-btn{
+    background-color: rgba(197, 63, 0, 1);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.card-p,
+#intro-block> h5{
+    color : rgba(0, 0, 0, 0.6)
+    
+}
+
+.cardPading{
+    padding: 50px;
+   
+}

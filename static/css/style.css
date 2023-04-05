@@ -77,7 +77,12 @@ nav {
 @media (max-width: 768px) {
     nav{
         position: absolute;
-        right: 50%;
+        width: 156px;
+        height: 40px;
+        left: 50%px;
+        top: 38px;
+    
+       
     }
     #banner-text {
             text-align: center;

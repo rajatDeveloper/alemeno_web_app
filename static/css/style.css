@@ -9,8 +9,10 @@ nav {
 }
 
 .mainDiv{
-    margin-top: 100px;
+    margin-top:60px;
+    
 }
+
 
 #business{
     color: rgba(197, 63, 0, 1);
@@ -19,6 +21,7 @@ nav {
 #tech{
    color : rgba(0, 136, 123, 1);
 }
+
 .heading,
 #banner-text 
 {
@@ -43,3 +46,36 @@ nav {
     padding: 50px;
    
 }
+.clientImg{
+    position: relative;
+    bottom: 50px;
+    height: 90px;
+    width: 90px;
+}
+
+.clientComa{
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+}
+.clent-position{
+    position: relative;
+    bottom: 65px;
+}
+.client-balance{
+   
+    height: 260px;
+}
+.footer-bg-color{
+    background-color: rgba(208, 208, 208, 1);
+    padding-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    #banner-text {
+            text-align: center;
+     } 
+  }

@@ -83,6 +83,31 @@ nav {
 #banner-img{
     padding-top: 30px;
 }
+#followDiv{
+    text-align: left;
+    
+}
+.followHead h3 {
 
+text-align: left;
+display : flex;
+justify-content: left;
+ 
      
   }
+  .followBody{
+ 
+    display : flex!important;
+    justify-content: left!important;
+   
+
+
+  }
+  .followBody div{
+ 
+    display : flex;
+    justify-content: left;
+    
+    text-align: left;
+  }
+}

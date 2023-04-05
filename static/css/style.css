@@ -1,15 +1,10 @@
 nav {
-    position: absolute;
-    width: 156px;
-    height: 40px;
-    left: 133px;
-    top: 38px;
-
-    background: url(/assets/images/logo.png);
+    
+    margin-bottom: 30px;
 }
 
 .mainDiv{
-    margin-top:60px;
+    margin-top:6px;
     
 }
 
@@ -22,6 +17,7 @@ nav {
    color : rgba(0, 136, 123, 1);
 }
 
+
 .heading,
 #banner-text 
 {
@@ -33,6 +29,10 @@ nav {
     color: white;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#banner-img{
+    padding-top: 100px;
 }
 
 
@@ -75,17 +75,14 @@ nav {
 
 
 @media (max-width: 768px) {
-    nav{
-        position: absolute;
-        width: 156px;
-        height: 40px;
-        left: 50%px;
-        top: 38px;
     
-       
-    }
     #banner-text {
             text-align: center;
      } 
+     
+#banner-img{
+    padding-top: 20px;
+}
+
      
   }

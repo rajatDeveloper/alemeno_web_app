@@ -81,18 +81,38 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+#pastWorkMob{
+    display: none;
+}
 
 #pastWork {
     background-color: rgba(0, 136, 123, 0.1);
+    background-color: rgba(0, 136, 123, 0.1);
     margin-left: -10 !important;
     margin-right: -10 !important;
-
     padding-top: 60px;
 
+
+}
+#mobileViewWork{
+    display: none;
 }
 
 
 @media (max-width: 768px) {
+    #pastWork{
+        display: none;
+    }
+
+    #mobileViewWork{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 80px;
+        background-color: rgba(0, 136, 123, 0.1);
+        cursor: grab;
+
+    }
 
     #banner-text {
         text-align: center;
@@ -100,6 +120,7 @@ body {
 
     #banner-img {
         padding-top: 30px;
+     
     }
 
     #followDiv {
@@ -145,7 +166,7 @@ body {
 
     #cardSlide{
       
-       display: flex;
+       display: flex !important;
        gap: 10px !important;
        cursor: grab;  
        flex-direction: row !important;
@@ -154,14 +175,22 @@ body {
     }
    
     .cardTopBox{
-        padding: 50px !important;
-        height: 150px !important;
+        padding: 50px ;
+        height: 150px; 
         width: 300px;
     }
 
     .cardBox{
-        height: 50px !important;
-        width: 200px !important;
+        height: 50px ;
+        width: 200px ;
+     
+
     } 
+    #pastWorkMob{
+        padding-top: 10px;
+        display: block;
+        background-color: rgba(0, 136, 123, 0.1);
+        margin-bottom: 0px;
+    }
     
 }

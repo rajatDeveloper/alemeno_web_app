@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alemeno
     </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -132,7 +136,7 @@
             </div>
 
         </div>
-        <div id="pastWork" class="row justify-content-center">
+        <div id="pastWork" class="row justify-content-center mb-2">
             <!-- ----normal heading -->
             <div class="row justify-content-around">
                 <h3 class="heading text-center">
@@ -145,7 +149,7 @@
             <!-- work card ------------ -->
             <div class="row justify-content-center commonMargin" id="cardSlide">
 
-                <div class="col-3  me-md-4     mb-4 rounded card cardPading cardTopBox">
+                <div class="col-3 me-md-4  mb-4 rounded card cardPading cardTopBox">
                     <img src="assets/images/work-1.png" class="fluid-img cardBox" />
 
 
@@ -166,6 +170,49 @@
 
 
         </div>
+
+        <!-- ---------------mobile view  -->
+        <h3 class="heading text-center" id="pastWorkMob">
+            Past Works
+        </h3>
+        <div class="demo" id="mobileViewWork">
+          
+            
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="col-3 me-md-4  mb-4 rounded card cardPading cardTopBox">
+                            <img src="assets/images/work-1.png" class="fluid-img cardBox" />
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col-3 me-md-4  mb-4 rounded card cardPading cardTopBox">
+                            <img src="assets/images/work-2.png" class="fluid-img cardBox" />
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col-3 me-md-4  mb-4 rounded card cardPading cardTopBox">
+                            <img src="assets/images/work-3.png" class="fluid-img cardBox" />
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
 
         <h3 class="heading text-center mt-5 mb-4 commonMargin">
             Clients Feedback
@@ -297,12 +344,33 @@
 
 
 
-
     </div>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+
+
+            // Navigation arrows
+
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>

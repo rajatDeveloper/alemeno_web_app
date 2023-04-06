@@ -170,7 +170,7 @@ body {
         
         padding: auto;
         height: 150px; 
-        width: 300px;
+        width: 100%;
     }
 
     .cardBox{
@@ -184,7 +184,7 @@ body {
         justify-content: space-around !important;
         padding-top: 40px;
         padding-bottom: 30px;
-        padding-left: 18%;
+        padding-left: 10%;
         padding-right: 10%;
         background-color: rgba(0, 136, 123, 0.1);
         cursor: grab;

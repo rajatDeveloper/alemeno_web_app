@@ -136,11 +136,11 @@ body {
 
     #grid-block-1 {
         margin-top: 10px;
-        margin-bottom: 20px !important;
+        margin-bottom:8px !important;
     }
 
     #grid-block-2 {
-        margin-top: 20px !important;
+        margin-top: 0px !important;
     }
 
     #cardSlide{

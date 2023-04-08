@@ -8,6 +8,8 @@ nav {
 /* Apply the font to the body */
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 
@@ -78,6 +80,10 @@ body {
     background-color: rgba(63, 0, 111, 0.06);
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+   
 }
 
 .footer-bg-color {

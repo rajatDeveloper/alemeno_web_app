@@ -115,6 +115,10 @@ body {
 #copyRight-mob{
     display: none;
 }
+#banner{
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
 
 
 @media (max-width: 768px) {

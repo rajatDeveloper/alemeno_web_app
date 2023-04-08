@@ -80,8 +80,8 @@ body {
     background-color: rgba(63, 0, 111, 0.06);
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 10px;
    
 }
@@ -226,6 +226,7 @@ body {
     }
     #copyRight-mob{
         display: block;
+       
        
     }
 }

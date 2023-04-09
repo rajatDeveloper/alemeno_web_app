@@ -35,7 +35,7 @@ body {
 }
 
 #banner-img {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -119,6 +119,9 @@ body {
     margin-top: 15px;
     margin-bottom: 80px;
 }
+.cardBox{
+    padding: 50px;
+}
 
 
 @media (max-width: 768px) {
@@ -133,7 +136,8 @@ body {
     }
 
     #banner-img {
-        padding-top: 30px;
+      
+        padding-bottom: 20px;
      
     }
 

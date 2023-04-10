@@ -97,6 +97,8 @@ body {
 .WhatWeDoBlock{
     background-color: rgba(63, 0, 111, 0.06);
     margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
      
 }
 
@@ -113,8 +115,8 @@ body {
 }
 
 .commonMargin {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #pastWorkMob{
     display: none;

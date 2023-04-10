@@ -3,6 +3,7 @@ nav {
     margin-bottom: 30px;
 }
 
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -20,10 +21,13 @@ input[type=number] {
 /* Apply the font to the body */
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    
 }
 
+.whatWeDoText{
+    color :rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
 
 #business {
     color: rgba(197, 63, 0, 1);
@@ -55,7 +59,9 @@ body {
 #intro-block>h5 {
     color: rgba(0, 0, 0, 0.6)
 }
-
+.heroSection{
+    font-weight: bolder;
+}
 .cardPading {
     padding: 15px;
 
@@ -90,17 +96,18 @@ body {
 }
 .WhatWeDoBlock{
     background-color: rgba(63, 0, 111, 0.06);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-   
+    margin-bottom: 30px;
+     
+}
+
+.removeLeftRightMargin{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .footer-bg-color {
     color: white;
-    height: 300px;
+    height: 200px;
     background-color: rgba(0, 54, 82, 1);
     padding-top: 30px;
 }
@@ -304,15 +311,11 @@ body {
     }
 
 .form-input-thanks,
-    .form-input{
-       
+    .form-input{      
         height: 370px;
-        width: 300px;
-       
-        
+        width: 300px;      
     }
-    .form-padding{
-       
+    .form-padding{       
         margin-top: 25px;
     }
     input::placeholder {

@@ -146,6 +146,8 @@ body {
 }
 .cardBoxDiv{
     padding: 30px;
+    width: 550px;
+    margin-right: 60px;
 }
 
 .form-input{
@@ -201,7 +203,7 @@ body {
     align-items: center;
 }
 .cardMargin{
-    margin-top:45px;
+    margin-top:0px;
     margin-bottom: 38px;
 }
 

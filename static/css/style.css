@@ -142,6 +142,10 @@ body {
 }
 .cardBox{
     padding: 50px;
+
+}
+.cardBoxDiv{
+    padding: 30px;
 }
 
 .form-input{

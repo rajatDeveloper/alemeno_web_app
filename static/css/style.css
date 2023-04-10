@@ -3,6 +3,18 @@ nav {
     margin-bottom: 30px;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 /* Apply the font to the body */
@@ -26,7 +38,7 @@ body {
     color: rgba(197, 63, 0, 1);
     ;
 }
-
+#form-input-btn,
 #banner-btn {
     background-color: rgba(197, 63, 0, 1);
     color: white;
@@ -94,8 +106,8 @@ body {
 }
 
 .commonMargin {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 #pastWorkMob{
     display: none;
@@ -125,13 +137,17 @@ body {
 
 .form-input{
     position: absolute;
-    top: 30%;
-    left: 36%;
-    height: 400px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
     width: 400px;
+    height: 400px;
     background-color: rgba(255, 255, 255, 1);
     display: none;
 }
+
 .form-padding{
     padding: 20px;
 }
@@ -145,6 +161,32 @@ body {
     font-size: 10;
 }
 
+.form-input-thanks{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
+}
+
+.form-margin{
+    margin-top: 20px;
+}
+.success{
+    height: 150px;
+    width: 150px;
+}
+.success-block{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 768px) {
     #pastWork{
@@ -196,7 +238,7 @@ body {
     }
 
     #grid-block-1 {
-        margin-top: 10px;
+        margin-top: 2px;
         margin-bottom:8px !important;
     }
 
@@ -222,7 +264,8 @@ body {
     }
 
     .cardBox{
-        padding: auto;
+        padding: 10px;
+        
     }
 
    .footer-icon{
@@ -256,17 +299,28 @@ body {
     }
     #copyRight-mob{
         display: block;
-       
+       font-size: 15px;
        
     }
 
-
+.form-input-thanks,
     .form-input{
-        position: absolute;
-        
-        height: 300px;
+       
+        height: 370px;
         width: 300px;
        
         
+    }
+    .form-padding{
+       
+        margin-top: 25px;
+    }
+    input::placeholder {
+        font: 13px/3 sans-serif;
+    }
+  
+    .cut-btn-icon{
+position: absolute;
+left: 80%;
     }
 }

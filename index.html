@@ -55,13 +55,13 @@
         <!-- form input div  -->
 
         <div class="form-input row justify-content-center rounded card">
-            <div class="row mt-1 ms-1 ">
+            <div class="row mt-1 ms-1 cut-btn-icon">
                 <div class="col-11"></div>
-                <div class="col-1"> <img id="form-input-cut-btn" class="fluid-img " src="assets/images/cutIcon.svg"
+                <div class="col-1 "> <img id="form-input-cut-btn" class="fluid-img " src="assets/images/cutIcon.svg"
                         alt=""></div>
             </div>
             <div class="form-padding">
-                <div class="row text-center">
+                <div class="row text-center ">
 
                     <h2 class="form-heading">Book a FREE</h2>
 
@@ -70,16 +70,17 @@
 
 
                 </div>
-                <div class="row text-center">
+                <div class="row text-center mb-3 mb-sm-2">
                     <p class="form-text"> Our team of experts will create a customized plan to solve your business and
                         customer problems
                         using
                         technology</p>
 
                 </div>
-                <div class="row text-center ps-4 pe-4">
-                    <input class="form-control form-input-field text-center" type="number"
+                <div class="row text-center ps-5 pe-5">
+                    <input class="form-control form-input-field text-center mt-3 p-2 rounded" type="number"
                         placeholder="Enter your mobile number">
+                    <button type="button mt-1" class="btn mt-3 p-2 rounded" id="form-input-btn">Book now</button>
                 </div>
 
 
@@ -88,12 +89,35 @@
         </div>
 
 
+        <!-- ------thanks form  -->
 
-        <div class="WhatWeDoBlock">
+        <div class="form-input-thanks row justify-content-center rounded card">
+            <div class="row mt-1 ms-1 cut-btn-icon">
+                <div class="col-11"></div>
+                <div class="col-1 "> <img id="form-thanks-cut-btn" class="fluid-img " src="assets/images/cutIcon.svg"
+                        alt=""></div>
+            </div>
+            <div class="success-block">
+                <img class="fluid-img success" src="assets/images/success_loader.gif" alt="">
+            </div>
+            <div class="form-padding form-margin">
+                <div class="row justify-content-center">
+                    <h2 class="form-heading text-center">Thank you!</h2>
+                    <center>
+                        <p>Our team will get in touch with you</p>
+                    </center>
+                </div>
 
-            <div class="row justify-content-center mt-4 mb-2" id="heading-section">
-                <!-- text data  -->
-                <br>
+
+            </div>
+        </div>
+
+
+
+        <div class=" WhatWeDoBlock ">
+
+            <div class="row justify-content-center mt-3 " id="heading-section">
+
                 <div class="text-center" id="intro-block">
                     <h3 class="heading">
                         What We Do
@@ -113,7 +137,7 @@
 
             <div class="row justify-content-around commonMargin" id="grid-block-1">
                 <!-- text data  -->
-                <div class="col-md-5  col-11 rounded mt-2 mb-2 bgWhite  card cardBox">
+                <div class="col-md-5 col-11 rounded mt-2 mb-2 bgWhite  card cardBox">
                     <div class="row mt-3 justify-content-start">
 
                         <div class="col-2">
@@ -140,7 +164,7 @@
 
                             <img src="assets/images/vector-2.png" class="img-fluid">
                         </div>
-                        <div class="col-6">
+                        <div class="col-7">
                             <h3>Technology</h3>
                         </div>
                     </div>
@@ -177,6 +201,7 @@
 
 
                 </div>
+
                 <div class="col-md-5  col-11  mt-2 mb-2 card rounded bgWhite cardBox">
                     <div class="row mt-3 justify-content-start">
 
@@ -429,6 +454,20 @@
             document.querySelector(".form-input").style.display = "none";
 
         })
+
+        //thanks-form-handler 
+
+        // form-input-btn
+        document.querySelector("#form-input-btn").addEventListener('click', () => {
+            document.querySelector(".form-input-thanks").style.display = "block";
+
+        })
+
+        document.querySelector("#form-thanks-cut-btn").addEventListener('click', () => {
+            document.querySelector(".form-input").style.display = "none";
+            document.querySelector(".form-input-thanks").style.display = "none";
+        })
+
 
         const swiper = new Swiper('.swiper', {
             // Optional parameters

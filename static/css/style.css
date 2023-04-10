@@ -211,6 +211,9 @@ body {
     margin-bottom: 38px;
 }
 
+.text{
+    padding-left: 15px;
+}
 
 @media (max-width: 768px) {
     .cardMargin{

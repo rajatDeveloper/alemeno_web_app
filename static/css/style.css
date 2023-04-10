@@ -21,7 +21,7 @@ input[type=number] {
 /* Apply the font to the body */
 body {
     font-family: 'Poppins', sans-serif;
-    
+  
 }
 
 .whatWeDoText{
@@ -51,7 +51,7 @@ body {
 }
 
 #banner-img {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 
@@ -60,7 +60,7 @@ body {
     color: rgba(0, 0, 0, 0.6)
 }
 .heroSection{
-    font-weight: bolder;
+    font-weight: bold;
 }
 .cardPading {
     padding: 15px;
@@ -97,7 +97,8 @@ body {
 .WhatWeDoBlock{
     background-color: rgba(63, 0, 111, 0.06);
     margin-bottom: 30px;
-   padding-bottom: 30px;
+    padding-top: 30px;
+   padding-bottom: 35px;
    
      
 }
@@ -115,7 +116,7 @@ body {
 }
 
 .commonMargin {
-    margin-top: 50px;
+   
     margin-bottom: 50px;
 }
 #pastWorkMob{
@@ -153,6 +154,7 @@ body {
 }
 
 .form-input{
+   
     position: absolute;
     top: 0;
     bottom: 0;
@@ -162,7 +164,7 @@ body {
     width: 400px;
     height: 400px;
     background-color: rgba(255, 255, 255, 1);
-    display: none;
+    
 }
 
 .form-padding{
@@ -170,7 +172,7 @@ body {
 }
 .form-heading{
     font-size: 35 ;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgba(0, 0, 0, 1);
    font-family: 'Poppins', sans-serif;
 }
@@ -207,6 +209,12 @@ body {
 .cardMargin{
     margin-top:0px;
     margin-bottom: 38px;
+}
+#form-input-cut-btn{
+    position: absolute;
+    top: 8px;
+    
+
 }
 
 @media (max-width: 768px) {
@@ -328,9 +336,16 @@ body {
        
     }
 
-.form-input-thanks,
-    .form-input{      
-        height: 370px;
+    .form-input-thanks{    
+        top: 0;
+        height: 400px;
+        width: 300px;      
+    }
+
+    .form-input{ 
+        
+        top:-13px;          
+        height: 400px;
         width: 300px;      
     }
     .form-padding{       
@@ -344,4 +359,33 @@ body {
 position: absolute;
 left: 80%;
     }
+    #banner-img{
+        padding-top: 10px !important;
+        /* border: 1px solid red; */
+    }
+
+    #banner-btn{
+    
+        margin-bottom:0 !important;
+    }
+
+    #form-input-cut-btn{
+        position: absolute;
+        top: -190px;
+       
+
+    }
+    
+}
+
+.formm{
+    position : absolute;
+    top : 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width : 100%;
+    height : 100vh;
+    background-color: rgba(250, 235, 215, 0.303);
+    display : none;
 }

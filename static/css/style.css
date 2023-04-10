@@ -123,6 +123,28 @@ body {
     padding: 50px;
 }
 
+.form-input{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
+}
+.form-padding{
+    padding: 20px;
+}
+.form-heading{
+    font-size: 35 ;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 1);
+   font-family: 'Poppins', sans-serif;
+}
+.form-text{
+    font-size: 10;
+}
+
 
 @media (max-width: 768px) {
     #pastWork{
@@ -236,5 +258,15 @@ body {
         display: block;
        
        
+    }
+
+
+    .form-input{
+        position: absolute;
+        
+        height: 300px;
+        width: 300px;
+       
+        
     }
 }

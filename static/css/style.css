@@ -196,8 +196,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+.cardMargin{
+    margin-top:45px;
+    margin-bottom: 38px;
+}
 
 @media (max-width: 768px) {
+    .cardMargin{
+       margin-top: 1px;
+
+    }
     #pastWork{
         display: none;
     }
@@ -248,7 +256,7 @@ body {
 
     #grid-block-1 {
         margin-top: 2px;
-        margin-bottom:8px !important;
+        margin-bottom:1px !important;
     }
 
     #grid-block-2 {

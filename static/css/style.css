@@ -210,12 +210,12 @@ body {
     margin-top:0px;
     margin-bottom: 38px;
 }
-#form-input-cut-btn{
+/* #form-input-cut-btn{
     position: absolute;
     top: 8px;
     
 
-}
+} */
 
 @media (max-width: 768px) {
     .cardMargin{
@@ -338,13 +338,16 @@ body {
 
     .form-input-thanks{    
         top: 0;
+        left: 0;
+        right: 0;
+
         height: 400px;
         width: 300px;      
     }
 
     .form-input{ 
         
-        top:-13px;          
+        /* top:-13px;           */
         height: 400px;
         width: 300px;      
     }
@@ -369,12 +372,12 @@ left: 80%;
         margin-bottom:0 !important;
     }
 
-    #form-input-cut-btn{
+    /* #form-input-cut-btn{
         position: absolute;
         top: -190px;
        
 
-    }
+    } */
     
 }
 

@@ -97,8 +97,8 @@ body {
 .WhatWeDoBlock{
     background-color: rgba(63, 0, 111, 0.06);
     margin-bottom: 30px;
-    padding-top: 30px;
-    padding-bottom: 60px;
+   padding-bottom: 30px;
+   
      
 }
 
@@ -146,8 +146,10 @@ body {
 }
 .cardBoxDiv{
     padding: 30px;
-    width: 550px;
-    margin-right: 60px;
+    width: 580px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
 }
 
 .form-input{

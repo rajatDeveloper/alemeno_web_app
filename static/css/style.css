@@ -74,6 +74,9 @@ body {
     width: 90px;
 }
 
+.client-balance{
+    height: 250px !important;
+}
 .clientComa {
     position: relative;
     bottom: 60px;
@@ -84,7 +87,7 @@ body {
 
 .clent-position {
     position: relative;
-    bottom: 50px;
+    bottom: 68px;
 }
 
 

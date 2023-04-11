@@ -97,9 +97,8 @@ body {
 .WhatWeDoBlock{
     background-color: rgba(63, 0, 111, 0.06);
     margin-bottom: 30px;
-    padding-top: 30px;
-    
-    padding-bottom: 35px;
+    padding-top: 60px;  
+    padding-bottom: 40px;
    
      
 }
@@ -240,6 +239,8 @@ body {
 @media (max-width: 768px) {
     .WhatWeDoBlock{
         padding: 15px !important;
+        padding-top: 50px !important;
+        padding-bottom: 40px !important;
     }
     .cardBoxDiv{
         padding: 30px;

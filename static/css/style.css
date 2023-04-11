@@ -214,6 +214,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 80px;
+    margin-bottom: 80px;
 }
 #grid-block-2 {
     display: flex;

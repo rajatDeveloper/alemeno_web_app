@@ -98,7 +98,8 @@ body {
     background-color: rgba(63, 0, 111, 0.06);
     margin-bottom: 30px;
     padding-top: 30px;
-   padding-bottom: 35px;
+    
+    padding-bottom: 35px;
    
      
 }
@@ -373,6 +374,11 @@ left: 80%;
     #form-input-cut-btn{
         position: absolute;
         left: 40px;
+    }
+
+    .WhatWeDoBlock{      
+        padding-right: 20px !important;
+        padding-left: 20px !important;
     }
     
 }

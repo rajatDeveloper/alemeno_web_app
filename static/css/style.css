@@ -255,6 +255,9 @@ body {
 #cardSlide{
     margin-bottom: 0px !important;
 }
+.allSectionHeading {
+    font-size: 24px;
+}
 
 @media (max-width: 768px) {
     .copyRight{

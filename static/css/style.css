@@ -261,6 +261,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    
+    .alignCenter{
+        width: 25%;
+        
+    }
    
     
     .feedbackText{

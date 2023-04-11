@@ -71,7 +71,7 @@ body {
     font-size: 45px !important;
 }
 .cardPading {
-    padding: 15px;
+    padding: 10px;
 
 }
 
@@ -151,7 +151,7 @@ body {
     margin-bottom: 80px;
 }
 .cardBox{
-    padding: 50px;
+    padding: 20px;
 
 }
 
@@ -247,6 +247,9 @@ body {
 
 .copyRight{
     font-size: 14px !important;
+}
+.cardTopBox{
+    height: 150px !important;
 }
 
 @media (max-width: 768px) {
@@ -348,12 +351,12 @@ body {
     .cardTopBox{
         
         padding: auto;
-        height: 150px; 
+        height: 130px; 
         width: 100%;
     }
 
     .cardBox{
-        padding: 20px;
+        padding: 35px !important;
         
     }
 

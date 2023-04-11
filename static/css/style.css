@@ -262,10 +262,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .clent-position{
-        font-size: 12;
-        
-    }
+    
     
     .alignCenter{
         width: 25%;

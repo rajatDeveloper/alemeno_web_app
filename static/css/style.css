@@ -228,6 +228,14 @@ body {
     width: 37.5vmax;
     
 }
+.cardTitle{
+    font-weight: 600;
+}
+
+.alignCenter{
+    display: flex;
+    align-items:center;
+}
 
 @media (max-width: 768px) {
     .WhatWeDoBlock{

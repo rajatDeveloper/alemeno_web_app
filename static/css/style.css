@@ -84,13 +84,10 @@ body {
 
 .clent-position {
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
 }
 
-.client-balance {
 
-    height: 310px;
-}
 .bgWhite{
     background-color: white;
 }

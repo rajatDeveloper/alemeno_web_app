@@ -252,6 +252,9 @@ body {
 .cardTopBox{
     height: 150px !important;
 }
+#cardSlide{
+    margin-bottom: 0px !important;
+}
 
 @media (max-width: 768px) {
     .copyRight{
@@ -349,6 +352,7 @@ body {
        cursor: grab;  
        flex-direction: row !important;
        overflow-x: scroll;
+       
        
     }
    

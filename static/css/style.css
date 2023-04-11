@@ -248,7 +248,7 @@ body {
 @media (max-width: 768px) {
     .heroSectionMain{
         font-weight: bolder;
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
     .WhatWeDoBlock{
         padding: 15px !important;

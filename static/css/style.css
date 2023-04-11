@@ -237,6 +237,9 @@ body {
     align-items:center;
 }
 
+.copyRight{
+    font-size: 14px !important;
+}
 
 @media (max-width: 768px) {
     .WhatWeDoBlock{

@@ -45,7 +45,8 @@
                         thrive in
                         the digital age</div>
 
-                    <button type="button" class="btn " id="banner-btn">Let's Connect</button>
+                    <button type="button" class="btn " data-toggle="modal" id="banner-btn"
+                        data-target="#exampleModalCenter">Let's Connect</button>
 
                 </div>
                 <!-- frame img  -->
@@ -56,7 +57,7 @@
                 </div>
             </div>
 
-            <!-- --------------------- -->
+
 
 
             <!-- form input div  -->
@@ -176,7 +177,7 @@
 
                                 <img src="assets/images/vector-2.png" class="img-fluid ">
                             </div>
-                            <div class="col-7 alignCenter">
+                            <div class="col-6 alignCenter">
                                 <h4 class="cardTitle">Technology</h4>
                             </div>
                         </div>
@@ -453,7 +454,7 @@
     </div>
     <script>
 
-        //form handler 
+        // //form handler 
         document.querySelector("#banner-btn").addEventListener('click', () => {
             document.querySelector(".formm").style.display = "block";
             document.querySelector(".form-input").style.display = "block";

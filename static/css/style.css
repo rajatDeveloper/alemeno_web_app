@@ -159,7 +159,7 @@ body {
 
 
 .form-input{
-   
+   z-index: 100;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -186,6 +186,7 @@ body {
 }
 
 .form-input-thanks{
+    z-index: 200;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -477,7 +478,7 @@ left: 80%;
 }
 
 .formm{
-    position : absolute;
+    position : fixed;
     top : 0;
     left: 0;
     right: 0;
@@ -486,5 +487,6 @@ left: 80%;
     height : 100vh;
   background: rgba(0, 0, 0, 0.5);
     display : none;
+    z-index : 7;
 }
 

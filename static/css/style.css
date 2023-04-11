@@ -352,7 +352,7 @@ body {
        cursor: grab;  
        flex-direction: row !important;
        overflow-x: scroll;
-       
+       margin-bottom: 0px !important;
        
     }
    
@@ -380,7 +380,7 @@ body {
         padding-bottom: 30px;
         padding-left: 10%;
         padding-right: 10%;
-       
+       margin-bottom: -35px;
         cursor: grab;
 
     }

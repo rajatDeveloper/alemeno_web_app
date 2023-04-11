@@ -151,7 +151,8 @@ body {
     margin-bottom: 80px;
 }
 .cardBox{
-    padding: 20px;
+    width: 95%;
+    padding: 35px !important;
 
 }
 

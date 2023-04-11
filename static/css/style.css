@@ -24,6 +24,7 @@ body {
   
 }
 
+
 .whatWeDoText{
     color :rgba(0, 0, 0, 0.6);
     font-size: 20px;
@@ -260,12 +261,28 @@ body {
 }
 
 @media (max-width: 768px) {
+   
+    
+    .feedbackText{
+        margin: auto;
+        margin-bottom: 20px;  
+        width: 300px;
+        font-size: 17px !important;
+    }
+    nav{
+        margin-bottom: 29px !important;
+    }
+    
+    .whatWeDoText{
+        font-size: 17px !important;
+    }
+   
     .copyRight{
         display: none ;
     }
     .heroSectionMain{
-        font-weight: bolder;
-        font-size: 30px !important;
+        font-weight: 720;
+        font-size: 25px !important;
     }
     .WhatWeDoBlock{
         padding: 15px !important;

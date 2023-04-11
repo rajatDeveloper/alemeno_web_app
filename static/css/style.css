@@ -254,6 +254,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .copyRight{
+        display: none ;
+    }
     .heroSectionMain{
         font-weight: bolder;
         font-size: 30px !important;
@@ -387,9 +390,8 @@ body {
         height: 500px;
       
     }
-    #copyRight{
-        display: none;
-    }
+  
+
     #copyRight-mob{
         display: block;
        font-size: 15px;

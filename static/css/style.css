@@ -60,7 +60,8 @@ body {
     color: rgba(0, 0, 0, 0.6)
 }
 .heroSection{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 50px !important;
 }
 .cardPading {
     padding: 15px;
@@ -242,6 +243,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .heroSection{
+        font-weight: bolder;
+        font-size: 35px !important;
+    }
     .WhatWeDoBlock{
         padding: 15px !important;
         padding-top: 50px !important;
@@ -436,3 +441,4 @@ left: 80%;
   background: rgba(0, 0, 0, 0.5);
     display : none;
 }
+

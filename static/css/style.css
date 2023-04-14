@@ -391,7 +391,8 @@ body {
     }
 
     .cardBox{
-        padding: 35px !important;
+        padding: 22px !important;
+        padding-top: 30px !important;
         
     }
 
@@ -473,7 +474,14 @@ left: 80%;
         position: absolute;
         left: 40px;
     }
+.cardTopBox{
+    height: 100px !important;
+    /* width: 300px; */
+}
+.cardPading {
+    padding: 5px;
 
+}
    
     
 }

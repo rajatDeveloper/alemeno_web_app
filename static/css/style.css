@@ -452,27 +452,34 @@ body {
         right: 0;
 bottom: 0;
         height: 380px;
-        width: 380px;      
+        width: 300px;   
+        padding-right: 10px;   
     }
 
     .form-input{ 
-        
-        /* top:-13px;           */
+        top: 0;
+        left: 0;
+        right: 0;
+bottom: 0; 
         height: 380px;
-        width: 380px;      
+        width: 300px;      
     }
     .form-padding{       
-        margin-top: 25px;
+        margin-top: -10px !important;
     }
     input::placeholder {
         font: 13px/3 sans-serif;
     }
-  
-    #form-input-cut-btn{
-display: absolute;
-left: 92% !important;
-
+    .cut-btn-icon2{
+        
+        display: flex;
+        margin-top: 4px !important;
+        justify-content: end;
+        margin-right: 4px !important;
     }
+  
+   
+
     #banner-img{
         padding-top: 10px !important;
         /* border: 1px solid red; */
@@ -487,10 +494,7 @@ left: 92% !important;
         margin-bottom:0 !important;
     }
 
-    #form-input-cut-btn{
-        position: absolute;
-        left: 40px;
-    }
+    
 .cardTopBox{
     height: 100px !important;
     /* width: 300px; */

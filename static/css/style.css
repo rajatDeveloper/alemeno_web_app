@@ -276,6 +276,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .cardTitle{
+        margin-left: -20px !important;
+       
+    }
     .cardIcon{
         height: 35px;
         width: 35px;
@@ -284,6 +288,7 @@ body {
     
     .error{
         font-size: 12px !important;
+        margin-top: 0px !important;
     }
     .alignCenter{
         width: 25%;
@@ -450,7 +455,8 @@ body {
        
     }
 
-    .form-input-thanks{    
+    .form-input-thanks{ 
+        text-align: center;
         top: 0;
         left: 0;
         right: 0;

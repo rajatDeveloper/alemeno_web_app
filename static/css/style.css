@@ -279,6 +279,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .form-text{
+        font-size: 10;
+        margin-bottom: -5px;
+    }
     .cardTitle{
         margin-left: -20px !important;
        

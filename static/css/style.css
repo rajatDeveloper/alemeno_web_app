@@ -498,11 +498,17 @@ left: 80%;
 
 }
 .error{
-    display: none;
+   
     margin-top: 5px;
     padding: 5px !important;
     margin-bottom: -9px;
+    font-size: 13px !important;
+   text-align: start;
+    color: red;
+    display: none;
+    cursor: pointer;
 }
+
 .formm{
     position : fixed;
     top : 0;

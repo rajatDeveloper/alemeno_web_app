@@ -466,7 +466,7 @@
         document.querySelector("#form-input-btn").addEventListener('click', () => {
 
             var num = document.querySelector("#mobileNum").value;
-            if (digits_count(num) < 10) {
+            if (digits_count(num) !== 10) {
                 document.querySelector(".error").style.display = "block";
             } else {
                 document.querySelector(".form-input").style.display = "none";

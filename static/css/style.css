@@ -276,6 +276,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .cardIcon{
+        height: 35px;
+        width: 35px;
+    }
     
     
     .error{

@@ -207,7 +207,8 @@ body {
 .success{
     height: 150px;
     width: 150px;
-    margin-bottom: -10px !important;
+    margin-bottom: -15px !important;
+    
 }
 .success-block{
     margin-top: 40px;
@@ -269,7 +270,7 @@ body {
    
     margin-top: 5px;
     padding: 5px !important;
-    margin-bottom: -9px;
+    margin-bottom: 8px;
     font-size: 13px !important;
    text-align: start;
     color: red;

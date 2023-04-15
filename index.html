@@ -91,7 +91,7 @@
                             <input class="form-control form-input-field text-center mt-3 p-2 rounded" type="number"
                                 placeholder="Enter your mobile number" id="mobileNum">
                             <div class="alert alert-danger error">
-                                Enter Valid Mobile Number
+                                Enter a Valid Mobile Number
                             </div>
                             <button type="button mt-1" class="btn mt-3 p-2 rounded" id="form-input-btn">Book
                                 now</button>
@@ -451,13 +451,29 @@
         })
 
         //thanks-form-handler 
+        function digits_count(n) {
+            var count = 0;
+            if (n >= 1) ++count;
 
+            while (n / 10 >= 1) {
+                n /= 10;
+                ++count;
+            }
+
+            return count;
+        }
         // form-input-btn
         document.querySelector("#form-input-btn").addEventListener('click', () => {
-           
+
             var num = document.querySelector("#mobileNum").value;
-            if(num.)
-            document.querySelector(".form-input").style.display = "none";
+            if (digits_count(num) < 10) {
+                document.querySelector(".error").style.display = "block";
+            } else {
+                document.querySelector(".form-input").style.display = "none";
+                document.querySelector(".error").style.display = "none";
+                document.querySelector(".form-input-thanks").style.display = "block";
+            }
+
         })
 
         document.querySelector("#form-thanks-cut-btn").addEventListener('click', () => {

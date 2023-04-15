@@ -287,7 +287,7 @@ body {
 @media (max-width: 768px) {
     .form-text{
         font-size: 12px;
-        /* margin-bottom: -5px; */
+        margin-bottom: 54px;
     }
     .cardTitle{
         margin-left: -20px !important;
@@ -474,8 +474,8 @@ body {
         left: 0;
         right: 0;
 bottom: 0;
-        height: 380px;
-        width: 320px;   
+        height: 400px;
+        width: 340px;   
         padding-right: 10px;   
         padding-bottom: 2px !important;
         
@@ -486,8 +486,8 @@ bottom: 0;
         left: 0;
         right: 0;
 bottom: 0; 
-        height: 380px;
-        width: 320px;      
+        height: 400px;
+        width: 340px;      
     }
     .form-padding{       
         margin-top: -10px !important;

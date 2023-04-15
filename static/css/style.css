@@ -248,6 +248,7 @@ body {
 .alignCenter{
     display: flex;
     align-items:center;
+    margin-top: 0px !important;
 }
 
 .copyRight{
@@ -275,6 +276,7 @@ body {
 }
 
 @media (max-width: 768px) {
+    
     
     .error{
         font-size: 10px !important;
@@ -312,7 +314,7 @@ body {
         padding-bottom: 40px !important;
     }
     .cardBoxDiv{
-        padding: 30px;
+        padding: 15px;
         width: auto;
         
     }
@@ -448,16 +450,16 @@ body {
         top: 0;
         left: 0;
         right: 0;
-
-        height: 400px;
-        width: 300px;      
+bottom: 0;
+        height: 380px;
+        width: 380px;      
     }
 
     .form-input{ 
         
         /* top:-13px;           */
-        height: 400px;
-        width: 300px;      
+        height: 380px;
+        width: 380px;      
     }
     .form-padding{       
         margin-top: 25px;
@@ -466,9 +468,10 @@ body {
         font: 13px/3 sans-serif;
     }
   
-    .cut-btn-icon{
-position: absolute;
-left: 80%;
+    #form-input-cut-btn{
+display: absolute;
+left: 92% !important;
+
     }
     #banner-img{
         padding-top: 10px !important;

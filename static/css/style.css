@@ -207,12 +207,14 @@ body {
 .success{
     height: 150px;
     width: 150px;
+    margin-bottom: -10px !important;
 }
 .success-block{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .cardMargin{
     margin-top:0px;

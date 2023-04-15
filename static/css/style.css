@@ -456,7 +456,7 @@ body {
     }
 
     .form-input-thanks{ 
-        text-align: center;
+        
         top: 0;
         left: 0;
         right: 0;
@@ -464,6 +464,8 @@ bottom: 0;
         height: 380px;
         width: 300px;   
         padding-right: 10px;   
+        padding-bottom: 2px !important;
+        
     }
 
     .form-input{ 

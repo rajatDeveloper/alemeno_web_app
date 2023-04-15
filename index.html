@@ -86,9 +86,13 @@
                                 technology</p>
 
                         </div>
+
                         <div class="row text-center ps-5 pe-5">
                             <input class="form-control form-input-field text-center mt-3 p-2 rounded" type="number"
-                                placeholder="Enter your mobile number">
+                                placeholder="Enter your mobile number" id="mobileNum">
+                            <div class="alert alert-danger error">
+                                Enter Valid Mobile Number
+                            </div>
                             <button type="button mt-1" class="btn mt-3 p-2 rounded" id="form-input-btn">Book
                                 now</button>
                         </div>
@@ -376,7 +380,8 @@
 
                         <div class="row justify-content-center">
                             <p>
-                                <u>Mealtime gamification</u>
+                                <a id="footerLink" href="https://alemeno.com/" target="_blank"><u>Mealtime
+                                        gamification</u></a>
                             </p>
                         </div>
 
@@ -449,7 +454,9 @@
 
         // form-input-btn
         document.querySelector("#form-input-btn").addEventListener('click', () => {
-            document.querySelector(".form-input-thanks").style.display = "block";
+           
+            var num = document.querySelector("#mobileNum").value;
+            if(num.)
             document.querySelector(".form-input").style.display = "none";
         })
 

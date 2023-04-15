@@ -493,6 +493,16 @@ left: 80%;
     
 }
 
+#footerLink{
+    color: white !important;
+
+}
+.error{
+    display: none;
+    margin-top: 5px;
+    padding: 5px !important;
+    margin-bottom: -9px;
+}
 .formm{
     position : fixed;
     top : 0;

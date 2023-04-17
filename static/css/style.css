@@ -283,8 +283,14 @@ body {
     cursor: pointer;
 }
 
+#form-input-cut-btn{
+    padding-left: 340px;
+}
 
 @media (max-width: 768px) {
+    #form-input-cut-btn{
+        padding-left: 20px;
+    }
     .success{
         height: 150px;
         width: 150px;

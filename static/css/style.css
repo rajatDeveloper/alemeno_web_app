@@ -210,7 +210,7 @@ body {
 .success{
     height: 150px;
     width: 150px;
-    margin-bottom: 12px !important;
+    margin-bottom: 0px !important;
     
 }
 .success-block{
@@ -285,6 +285,12 @@ body {
 
 
 @media (max-width: 768px) {
+    .success{
+        height: 150px;
+        width: 150px;
+        margin-bottom:11px !important;
+        
+    }
     .form-text{
         font-size: 12px;
         margin-bottom: 54px;
